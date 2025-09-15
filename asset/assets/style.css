@@ -11,6 +11,9 @@ body {
 
 #conteiner {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
 }
 
 .cartao {
@@ -44,11 +47,12 @@ body {
 .cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
+    margin-top: 5rem;
 }
 
 .cartao__conteudo__pergunta p {
     color: var(--text-color)
-     background-color: #00F4BF; font-weight: 500;
+     background-color:#00F4BF; font-weight: 500;
 }
 
 .cartao__conteudo__resposta p {
@@ -63,9 +67,14 @@ body {
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
     backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
-
+.cartao__conteudo__resposta {
+    transform: rotateY(180deg);
+}
 
 
 
@@ -76,6 +85,7 @@ body {
 footer {
     background-color: rgb(169, 236, 236);
     color: aliceblue;
+
     position: fixed;
     bottom: 0;
     width: 100%;
