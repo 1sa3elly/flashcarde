@@ -1,5 +1,5 @@
 criaCartao(
-    'programação',
+    'Programação',
     'O que é Python?',
     'O Python é uma linguagem de programação'
 )
@@ -19,5 +19,5 @@ criaCartao(
 criaCartao(
     'Lingua inglesa',
     'Como se diz OI em inglês?',
-    'OI em ingles se diz HI (RAI)'
-)
+    'Oi em ingles é HI (RAI)'
+) 
