@@ -45,10 +45,7 @@ body {
     backface-visibility: hidden;
 }
 
-.cartao__conteupergunta p {
-    color: var(--text-color);
-    font-weight: 500;
-}do p {
+.cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
    ;margin-top: 4rem;
